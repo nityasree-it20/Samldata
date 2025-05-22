@@ -34,6 +34,6 @@ nMr4oux7b+n8gAvqLKV2FaK6Hghvj9hDdM1VpT1D3Twxp0vuwHE9Dw/PUGmr5EWi
       <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://orgfarm-f842242af0-dev-ed.develop.my.salesforce.com/services/auth/sp/saml2/logout"/>
       <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://orgfarm-f842242af0-dev-ed.develop.my.salesforce.com/services/auth/sp/saml2/logout"/>
       <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat>
-      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://orgfarm-f842242af0-dev-ed.develop.lightning.force.com/lightning/r/User/005gL000000m58fQAA/view" index="0" isDefault="true"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://orgfarm-f842242af0-dev-ed.develop.my.salesforce.com" index="0" isDefault="true"/>
    </md:SPSSODescriptor>
 </md:EntityDescriptor>
